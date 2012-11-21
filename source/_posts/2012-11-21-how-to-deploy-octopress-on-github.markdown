@@ -1,0 +1,43 @@
+---
+layout: post
+title: "How to deploy Octopress on Github"
+date: 2012-11-21 17:16
+comments: true
+categories: [System]
+---
+
+如何在Github上部署Octopress
+========================
+
+Octopress号称是为黑客量身打造的博客框架。它可以把博客部署到Github代码库上，然后发博客就跟提交代码似的，酷得不得了。是的，它没有一般博客系统那种后台页面，发博文全靠手写Markdown语言！这么“麻烦”的事，恐怕只有黑客才愿意干了。尽管这种方法很原始，但依靠精美的模板，Octopress出来的最终效果并不比Wordpress差。
+
+Octopress的另一个卖点可能是“免费”。Github免费提供了300M空间和简短的二级域名，做个人博客足矣。但使用二级域名，像mzweilin.github.com，总有一种寄人篱下的感觉，都不好意思印在名片上。如果你愿意花100大洋买个顶级域名，相信就能找到归属感了。
+
+这么新奇的东西，赶紧来试试！
+<!-- more -->
+1. 安装Octopress
+---------------
+
+我的操作系统是Ubuntu 12.04 Desktop x64，在按照官方文档[http://octopress.org/docs/setup/](http://octopress.org/docs/setup/)安装时遇到一些问题。这是因为Octopress要求使用RVM管理ruby相关的包，而不是apt-get。两个包管理机制不能自动协调，缺了依赖的软件包也不知道。因此在执行官方的安装步骤之前，一定要先安装以下软件包：
+
+    sudo apt-get install bash curl git-core
+    sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake
+
+
+然后按照官方文档一步步操作就行了，注意不要使用sudo。
+
+2. 部署到Github
+--------------
+请参考官方文档：[http://octopress.org/docs/deploying/github/](http://octopress.org/docs/deploying/github/)
+
+3、配置博客参数
+------------
+请参考官方文档：[http://octopress.org/docs/configuring/](http://octopress.org/docs/configuring/)
+
+4、发布博客
+----------
+请参考官方文档：[http://octopress.org/docs/blogging/](http://octopress.org/docs/blogging/)
+
+最终效果请看[http://weilin.me](http://weilin.me)
+
+Octopress还提供了丰富的插件，可以很简单地实现各种高级功能。比如使用“多说”这样的第三方评论系统、把内容分享到Facebook和Google+等SNS网站，还可以用Google Analytics做访问量统计。等有空再装上试试。
