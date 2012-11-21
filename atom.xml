@@ -4,11 +4,11 @@
   <title><![CDATA[Weilin's Blog]]></title>
   <link href="http://weilin.me/atom.xml" rel="self"/>
   <link href="http://weilin.me/"/>
-  <updated>2012-11-21T15:35:12+08:00</updated>
+  <updated>2012-11-21T17:05:13+08:00</updated>
   <id>http://weilin.me/</id>
   <author>
     <name><![CDATA[Weilin Xu]]></name>
-    <email><![CDATA[xu@weilin.me]]></email>
+    
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
