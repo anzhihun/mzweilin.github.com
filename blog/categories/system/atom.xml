@@ -4,7 +4,7 @@
   <title><![CDATA[Category: System | Weilin's Blog]]></title>
   <link href="http://weilin.me/blog/categories/system/atom.xml" rel="self"/>
   <link href="http://weilin.me/"/>
-  <updated>2012-11-21T20:52:48+08:00</updated>
+  <updated>2012-11-21T20:55:07+08:00</updated>
   <id>http://weilin.me/</id>
   <author>
     <name><![CDATA[Weilin Xu]]></name>
@@ -25,6 +25,9 @@
 <p>Octopress的另一个卖点可能是“免费”。Github免费提供了300M空间和简短的二级域名，做个人博客足矣。但使用二级域名，像mzweilin.github.com，总有一种寄人篱下的感觉，都不好意思印在名片上。如果你愿意花100大洋买个顶级域名，相信就能找到归属感了。</p>
 
 <p>这么新奇的东西，赶紧来试试！</p>
+
+<!-- more -->
+
 
 <h2>1. 安装Octopress</h2>
 
